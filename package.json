@@ -1,0 +1,41 @@
+{
+  "name": "initial-react-app-manually-configurated",
+  "version": "1.0.0",
+  "description": "I made this repository to create a initial react project but without the \"create-react-app\" comand, because sometimes we don't need to use all the modules or dependencies made by this comand.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack-dev-server -d",
+    "build": "npx webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3pyp/initial-react-app-manually-configurated.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3pyp/initial-react-app-manually-configurated/issues"
+  },
+  "homepage": "https://github.com/3pyp/initial-react-app-manually-configurated#readme",
+  "dependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
